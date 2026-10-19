@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, Arial, sans-serif">
+<rect width="100%%" height="100%%" fill="#ffffff"/>
+<text x="78" y="26" font-size="16" font-weight="bold" fill="#222">资产规模趋势（百万元）</text>
+<line x1="78" y1="38" x2="96" y2="38" stroke="#0072B2" stroke-width="2"/>
+<text x="101" y="43" font-size="12" font-weight="bold" fill="#444">资产总计</text>
+<line x1="179" y1="38" x2="197" y2="38" stroke="#E69F00" stroke-width="2"/>
+<text x="202" y="43" font-size="12" font-weight="bold" fill="#444">股东权益</text>
+<line x1="280" y1="38" x2="298" y2="38" stroke="#CC79A7" stroke-width="2"/>
+<text x="303" y="43" font-size="12" font-weight="bold" fill="#444">流动资产</text>
+<line x1="78" y1="242.0" x2="868" y2="242.0" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="246.0" font-size="11" font-weight="bold" fill="#666" text-anchor="end">0</text>
+<line x1="78" y1="192.5" x2="868" y2="192.5" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="196.5" font-size="11" font-weight="bold" fill="#666" text-anchor="end">20000</text>
+<line x1="78" y1="143.0" x2="868" y2="143.0" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="147.0" font-size="11" font-weight="bold" fill="#666" text-anchor="end">40000</text>
+<line x1="78" y1="93.5" x2="868" y2="93.5" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="97.5" font-size="11" font-weight="bold" fill="#666" text-anchor="end">60000</text>
+<line x1="78" y1="44.0" x2="868" y2="44.0" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="48.0" font-size="11" font-weight="bold" fill="#666" text-anchor="end">80000</text>
+<text x="78.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="start">2015</text>
+<text x="157.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2016</text>
+<text x="236.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2017</text>
+<text x="315.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2018</text>
+<text x="394.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2019</text>
+<text x="473.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2020</text>
+<text x="552.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2021</text>
+<text x="631.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2022</text>
+<text x="710.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2023</text>
+<text x="789.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="middle">2024</text>
+<text x="868.0" y="262" font-size="11" font-weight="bold" fill="#666" text-anchor="end">2025</text>
+<line x1="78" y1="242" x2="868" y2="242" stroke="#bbb" stroke-width="1"/>
+<line x1="78" y1="44" x2="78" y2="242" stroke="#bbb" stroke-width="1"/>
+<text x="18" y="143" font-size="12" font-weight="bold" fill="#666" transform="rotate(-90 18 143)" text-anchor="middle">百万元</text>
+<polyline points="78.0,137.7 157.0,136.4 236.0,128.0 315.0,112.6 394.0,106.5 473.0,103.4 552.0,85.6 631.0,81.8 710.0,71.7 789.0,68.1 868.0,64.0" fill="none" stroke="#0072B2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="78.0" cy="137.7" r="2.4" fill="#0072B2"/>
+<circle cx="157.0" cy="136.4" r="2.4" fill="#0072B2"/>
+<circle cx="236.0" cy="128.0" r="2.4" fill="#0072B2"/>
+<circle cx="315.0" cy="112.6" r="2.4" fill="#0072B2"/>
+<circle cx="394.0" cy="106.5" r="2.4" fill="#0072B2"/>
+<circle cx="473.0" cy="103.4" r="2.4" fill="#0072B2"/>
+<circle cx="552.0" cy="85.6" r="2.4" fill="#0072B2"/>
+<circle cx="631.0" cy="81.8" r="2.4" fill="#0072B2"/>
+<circle cx="710.0" cy="71.7" r="2.4" fill="#0072B2"/>
+<circle cx="789.0" cy="68.1" r="2.4" fill="#0072B2"/>
+<circle cx="868.0" cy="64.0" r="2.4" fill="#0072B2"/>
+<polyline points="78.0,166.5 157.0,163.6 236.0,161.0 315.0,147.4 394.0,144.7 473.0,142.0 552.0,135.9 631.0,130.4 710.0,122.3 789.0,117.5 868.0,119.3" fill="none" stroke="#E69F00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="78.0" cy="166.5" r="2.4" fill="#E69F00"/>
+<circle cx="157.0" cy="163.6" r="2.4" fill="#E69F00"/>
+<circle cx="236.0" cy="161.0" r="2.4" fill="#E69F00"/>
+<circle cx="315.0" cy="147.4" r="2.4" fill="#E69F00"/>
+<circle cx="394.0" cy="144.7" r="2.4" fill="#E69F00"/>
+<circle cx="473.0" cy="142.0" r="2.4" fill="#E69F00"/>
+<circle cx="552.0" cy="135.9" r="2.4" fill="#E69F00"/>
+<circle cx="631.0" cy="130.4" r="2.4" fill="#E69F00"/>
+<circle cx="710.0" cy="122.3" r="2.4" fill="#E69F00"/>
+<circle cx="789.0" cy="117.5" r="2.4" fill="#E69F00"/>
+<circle cx="868.0" cy="119.3" r="2.4" fill="#E69F00"/>
+<polyline points="78.0,215.2 157.0,214.6 236.0,204.4 315.0,188.1 394.0,185.8 473.0,184.8 552.0,166.0 631.0,157.9 710.0,143.2 789.0,143.8 868.0,147.0" fill="none" stroke="#CC79A7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="78.0" cy="215.2" r="2.4" fill="#CC79A7"/>
+<circle cx="157.0" cy="214.6" r="2.4" fill="#CC79A7"/>
+<circle cx="236.0" cy="204.4" r="2.4" fill="#CC79A7"/>
+<circle cx="315.0" cy="188.1" r="2.4" fill="#CC79A7"/>
+<circle cx="394.0" cy="185.8" r="2.4" fill="#CC79A7"/>
+<circle cx="473.0" cy="184.8" r="2.4" fill="#CC79A7"/>
+<circle cx="552.0" cy="166.0" r="2.4" fill="#CC79A7"/>
+<circle cx="631.0" cy="157.9" r="2.4" fill="#CC79A7"/>
+<circle cx="710.0" cy="143.2" r="2.4" fill="#CC79A7"/>
+<circle cx="789.0" cy="143.8" r="2.4" fill="#CC79A7"/>
+<circle cx="868.0" cy="147.0" r="2.4" fill="#CC79A7"/>
+</svg>
