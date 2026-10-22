@@ -1,6 +1,6 @@
 # CM 手册生成器
 
-按 `template/南山铝业600219.SH_CM 手册.pdf` 的版式，生成 A 股公司的 **Markdown CM 手册** 与 **一页 PDF 报告**。
+参考 `template/南山铝业600219.SH_CM 手册.pdf`  “诚明阁“的版式，生成 A 股公司的 **Markdown CM 手册** 与 **一页 PDF 报告**。
 
 - 输入一个股票代码，自动抓取行情、财务三表、公司资料、分红等数据。
 - 先输出 Markdown（含 SVG 图表），再输出 LaTeX 排版的 PDF（A4 宽度 210mm、页面高度按内容自适应）。
@@ -26,6 +26,29 @@ python3 scripts/generate_cm_manual.py 600219.SH
 # 4. 生成 Markdown + 一页 PDF
 python3 scripts/generate_cm_manual.py 600219.SH --report-date 2026/05/06 --pdf
 ```
+
+### 港股版
+
+港股使用独立脚本 `scripts/generate_cm_manual_hk.py`，用法与 A 股版一致：
+
+```bash
+# 只生成 Markdown
+python3 scripts/generate_cm_manual_hk.py 00700
+
+# 指定报告指标日期并生成一页 PDF
+python3 scripts/generate_cm_manual_hk.py 00700.HK --report-date 2026/10/22 --pdf
+
+# 其他港股
+python3 scripts/generate_cm_manual_hk.py 01398 --pdf     # 工商银行
+python3 scripts/generate_cm_manual_hk.py 09988 --pdf     # 阿里巴巴-W
+```
+
+港股版口径：
+
+- 数据源：腾讯财经（行情、K 线、汇率）+ 东方财富（港股财报三表、主要指标、公司资料、分红明细）。
+- 财报为年度 + 半年度口径；港股没有「扣非净利润」，利润表使用「股东应占溢利」，毛利率直接采用披露的「毛利」。
+- 财报金额按公司披露币种列示（常见人民币、港元、美元），不做汇率折算；股价、市值、分红统一为港元。
+- 分红按财政年度汇总中期/末期现金分红，展示每股派息（港元）与按当前股价计算的股息率。
 
 ---
 
